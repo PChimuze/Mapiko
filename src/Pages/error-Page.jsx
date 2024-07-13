@@ -1,10 +1,11 @@
 import React from 'react'
 
-export const Footer = () => {
+export const ErrorPage = () => {
   return (
     <div>
-      Footer
+      404
     </div>
   )
 }
+
 

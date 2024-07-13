@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Portofolio = () => {
+export const Portifolio = () => {
   return (
     <div>
-      
+      Portifolio
     </div>
   )
 }
