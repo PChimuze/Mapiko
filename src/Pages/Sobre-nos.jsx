@@ -1,10 +1,14 @@
 import React from 'react'
+import { Header } from '../components/header'
+import { Footer } from '../components/footer'
 
 export const SobreNos = () => {
   return (
-    <div>
+    <>
+      <Header/>
       Sobre Nos
-    </div>
+      <Footer/>
+    </>
   )
 }
 

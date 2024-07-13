@@ -1,10 +1,16 @@
 import React from 'react'
 
+
+import { Header } from '../components/header'
+import { Footer } from '../components/footer'
+
 export const Portifolio = () => {
   return (
-    <div>
-      Portifolio
-    </div>
+    <>
+    <Header />
+    Portifolio
+    <Footer/>
+    </>
   )
 }
 
