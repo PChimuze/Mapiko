@@ -14,16 +14,16 @@ export const NavBar = () => {
           `${isActive ? activeStyles : inactiveStyles}`}>Home</NavLink>
 
         <NavLink to ={'/portifolio'} className={({ isActive }) =>
-          `${isActive ? activeStyles : inactiveStyles}`}>Portifolio</NavLink>
+          isActive ? activeStyles : inactiveStyles}>Portifolio</NavLink>
 
         <NavLink to ={'/servicos'} className={({ isActive }) =>
-          `${isActive ? activeStyles : inactiveStyles}`}>Servicos</NavLink>
+          isActive ? activeStyles : inactiveStyles}>Servicos</NavLink>
 
         <NavLink to ={'/contactos'} className={({ isActive }) =>
-          `${isActive ? activeStyles : inactiveStyles}`}>Contactos</NavLink>
+          isActive ? activeStyles : inactiveStyles}>Contactos</NavLink>
 
         <NavLink to ={'/sobre-nos'} className={({ isActive }) =>
-          `${isActive ? activeStyles : inactiveStyles}`}>Sobre</NavLink>
+          isActive ? activeStyles : inactiveStyles}>Sobre</NavLink>
     </nav>
     </>
   )
