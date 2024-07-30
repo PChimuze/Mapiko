@@ -1,18 +1,16 @@
-import React from 'react'
-import { Header } from '../components/header'
-import { Footer } from '../components/footer'
-import { Outlet } from 'react-router-dom'
+
+import { Footer } from '../footer'
 import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
-import Bgvideo from '../components/media/o sucesso.mp4'
-import '../components/animations.css'
+import { Link } from 'react-scroll'
+import Bgvideo from '../media/o sucesso.mp4'
+import '../animations.css'
 
 
 export const Home = () => {
   return (
     <body className='bg-black transition-all duration-300 ease-in-out'>
       
-      <Header/>
+      {/* <Header/> */}
       <motion.main
         initial={{ opacity: 0, scale: 1 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -107,7 +105,7 @@ transition={{ duration: 0.8, delay: 0.6 }}
   </div>
   
 
-      <Outlet/>
+      {/* <Outlet/> */}
       </motion.main>
       <Footer/>
       </body>

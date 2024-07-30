@@ -1,16 +1,16 @@
 
 import './App.css'
-import { RouterProvider } from 'react-router-dom'
-import { route } from './routes'  
+
+import { NavBar } from './components/header'
+import { Home } from './components/Home/Home'
 
 
 function App() {
 
   return (
     <>
-     
-      <RouterProvider router= {route}/>
-
+     <NavBar/>
+     <Home/>
     </>
   )
 
