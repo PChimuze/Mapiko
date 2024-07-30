@@ -2,6 +2,7 @@
 import './App.css'
 import { AreasDeAtuacao } from './components/areasDeAtuacao'
 import { FatoresDiferenciadores } from './components/diferencias'
+import { FAQ } from './components/faq'
 import { Footer } from './components/footer'
 
 import { NavBar } from './components/header'
@@ -18,6 +19,7 @@ function App() {
      <SobreNos/>
      <AreasDeAtuacao/>
      <FatoresDiferenciadores/>
+     <FAQ/>
      <Footer/>
     </>
   )
