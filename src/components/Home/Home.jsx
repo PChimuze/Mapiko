@@ -107,7 +107,7 @@ transition={{ duration: 0.8, delay: 0.6 }}
 
       {/* <Outlet/> */}
       </motion.main>
-      <Footer/>
+     
       </body>
   )
 

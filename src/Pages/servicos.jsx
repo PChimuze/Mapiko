@@ -10,7 +10,7 @@ export const Servicos = () => {
       Servicos
   
       </main>
-      <Footer/>
+    
     </>
   )
 }

@@ -11,7 +11,6 @@ export const Portifolio = () => {
     <main>
     Portifolio
     </main>
-    <Footer/>
     </>
   )
 }
