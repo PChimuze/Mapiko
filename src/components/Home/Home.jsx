@@ -10,7 +10,7 @@ export const Home = () => {
   return (
     <body className='bg-black transition-all duration-300 ease-in-out'>
       
-      {/* <Header/> */}
+     
       <motion.main
         initial={{ opacity: 0, scale: 1 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -95,7 +95,7 @@ animate={{ x: 0, opacity: 1 }}
 transition={{ duration: 0.8, delay: 0.6 }}
 >
 
-<Link to="/sobre-nos">
+<Link to="about">
   <button className=" w-48 bg-black/60 text-blue-50 px-6 py-3 rounded-xl hover:bg-blue-600 hover:text-white transition-colors duration-300">
     Sobre Nós
       </button>
