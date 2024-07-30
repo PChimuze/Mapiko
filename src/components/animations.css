@@ -8,7 +8,7 @@
 }
 
 .bg-overlay {
-    height: 100dvh;
+    height: 1080px;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
     position: absolute;
