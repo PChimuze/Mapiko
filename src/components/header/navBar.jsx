@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom'
 
 export const NavBar = () => {
 
-  const activeStyles = "text-yellow-DEFAULT font-bold";
-  const inactiveStyles = "text-gray-dark";
+  const activeStyles = "text-azul font-bold";
+  const inactiveStyles = "text-white";
 
 
   return (

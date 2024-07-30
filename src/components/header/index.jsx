@@ -6,7 +6,7 @@ export const Header = () => {
   
   return (
     <>
-      <header className="flex items-center justify-between bg-black text-white h-16 px-8 text-lg shadow-lg ">
+      <header className="flex items-center justify-between bg-amareloPrimaria text-white h-16 px-8 text-lg shadow-lg ">
         {/* Logo */}
         <div className="flex items-center">
           <Link to={"/"}>
