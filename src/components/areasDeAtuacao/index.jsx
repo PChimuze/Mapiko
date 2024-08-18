@@ -2,7 +2,7 @@ import React from 'react';
 
 export const AreasDeAtuacao = () => {
   return (
-    <section id="areas" className="py-8 px-4 bg-gray-100 min-h-screen">
+    <section id="areas" className="py-10  px-4 bg-gray-100 ">
       <div className="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg">
         <h2 className="text-4xl font-bold mb-6 text-center">Áreas de Atuação</h2>
         <ul className="list-disc list-inside space-y-4 text-gray-700">

@@ -4,6 +4,7 @@ import logo from '/logo.jpeg'
 import { Link } from 'react-scroll';
 
 import {FaXmark, FaBars} from "react-icons/fa6";
+import { motion } from 'framer-motion'; 
 
 export const NavBar = () => {
     const [isMenuOpen,setIsMenuOp] = useState(false);
@@ -67,8 +68,13 @@ export const NavBar = () => {
 
                 </div>
             </div>
-
-            <div className={`space-y-4 px-4 mt-16 py-7 bg-azul ${isMenuOpen ?"block fixed top-0 right-0 left-0" :"hidden"} `}>
+            
+            <motion.div 
+            initial={{ y: '-100%', opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 3.0, delay: 0.5 }}
+            exit={{y: '100', opacity: 0 }}
+            className={`space-y-8 px-4 mt-16 py-7 bg-blue-950  ${isMenuOpen ?"block fixed top-0 right-0 left-0" :"hidden"} `}>
 
                     {
                         navItems.map(({link,path}) =><Link to={path} spy={true} smooth={true} 
@@ -78,7 +84,7 @@ export const NavBar = () => {
 
 
 
-            </div>
+            </motion.div>
         </nav>
     </header>
   )
