@@ -8,7 +8,7 @@ import '../animations.css'
 
 export const Home = () => {
   return (
-    <body className='bg-black transition-all duration-300 ease-in-out'>
+    <section id ='home' className='bg-black transition-all duration-300 ease-in-out'>
       
      
       <motion.main
@@ -107,7 +107,7 @@ transition={{ duration: 0.8, delay: 0.6 }}
 
       </motion.main>
      
-      </body>
+      </section>
   )
 
 }

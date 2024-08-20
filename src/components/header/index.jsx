@@ -35,7 +35,7 @@ export const NavBar = () => {
         {link: "Home",path:"home"},
         {link: "Service",path:"service"},
         {link: "About",path:"about"},
-        {link: "Portifolio",path:"portifolio"},
+        {link: "areas",path:"areas"},
         {link: "Contact",path:"contact"},
         {link: "Faq",path:"faq"},
     ];
