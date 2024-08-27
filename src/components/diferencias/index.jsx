@@ -2,7 +2,7 @@ import React from 'react';
 
 export const FatoresDiferenciadores = () => {
   return (
-    <section id="fatores-diferenciadores" className="py-8 px-4 bg-gray-100 ">
+    <section id="fatores-diferenciadores" className="py-8 px-4 text-justify bg-gray-100 ">
       <div className="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg">
         <h2 className="text-4xl font-bold mb-6 text-center">Fatores Diferenciadores</h2>
         

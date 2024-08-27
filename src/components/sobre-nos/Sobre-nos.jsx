@@ -4,10 +4,10 @@ export const SobreNos = () => {
   return (
     <>
       <main className="p-4 md:p-8 bg-gray-100 ">
-        <section id="about" className="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <section id="about" className="max-w-4xl  mx-auto bg-white p-6 rounded-lg shadow-lg">
           <h2 className="text-4xl font-bold mb-6 text-center">Sobre Nós</h2>
           
-          <div className="mb-8">
+          <div className="mb-8 text-justify">
             <h3 className="text-2xl font-semibold mb-4">Quem Somos</h3>
             <p className="text-gray-700 mb-4">
               Empresa moçambicana com enfoque na área de comunicação e relações públicas e com foco no objectivo do cliente.
