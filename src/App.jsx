@@ -1,6 +1,7 @@
 
 import './App.css'
 import { AreasDeAtuacao } from './components/areasDeAtuacao'
+import { Contactos } from './components/contactos'
 import { FatoresDiferenciadores } from './components/diferencias'
 import { FAQ } from './components/faq'
 import { Footer } from './components/footer'
@@ -20,6 +21,7 @@ function App() {
      <AreasDeAtuacao/>
      <FatoresDiferenciadores/>
      <FAQ/>
+     <Contactos/>
      <Footer/>
     </>
   )
