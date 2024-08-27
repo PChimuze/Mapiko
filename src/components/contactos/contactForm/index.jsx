@@ -15,12 +15,13 @@ export const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
+
     console.log('Form submitted', formData);
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-lg mx-auto p-4 bg-white shadow-lg rounded">
+    <form onSubmit={handleSubmit} className="max-w-lg mx-auto p-4 bg-white shadow-lg rounded mb-16">
+      <div className="flex ">
       <div className="mb-4">
         <label className="block text-gray-700">Nome</label>
         <input
@@ -32,7 +33,7 @@ export const ContactForm = () => {
           required
         />
       </div>
-      <div className="mb-4">
+      <div className="mb-4 mx-8">
         <label className="block text-gray-700">Apelido</label>
         <input
           type="text"
@@ -43,6 +44,8 @@ export const ContactForm = () => {
           required
         />
       </div>
+      </div>
+
       <div className="mb-4">
         <label className="block text-gray-700">Email</label>
         <input
