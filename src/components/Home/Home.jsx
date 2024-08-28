@@ -52,7 +52,7 @@ transition={{ duration: 0.8, delay: 0.6 }}
 
 >
 
-<Link to="/servicos">
+<Link  to="/servicos">
   <button className="w-32 lg:w-48 bg-orange-400/60 text-blue-50 px-6 py-3 rounded-xl hover:bg-blue-600 hover:text-white transition-colors duration-300">
   Serviços
   </button>
@@ -81,7 +81,7 @@ transition={{ duration: 0.8, delay: 0.6 }}
            
 >
            
-            <Link to="/contactos">
+            <Link to="contact" spy={true} smooth={true} offset={-100} key="contact">
               <button className=" w-32 h-14 lg:w-48 text-sm bg-black/60 text-blue-50 px-2 py-2 rounded-xl hover:bg-blue-600 hover:text-white transition-colors duration-300">
               Entrar em contacto
               </button>
@@ -95,7 +95,7 @@ animate={{ x: 0, opacity: 1 }}
 transition={{ duration: 0.8, delay: 0.6 }}
 >
 
-<Link to="about">
+<Link to="about" spy={true} smooth={true} offset={-100} key="about">
   <button className="w-32 text-base h-14 lg:w-48 bg-black/60 text-blue-50 px-6 py-3 rounded-xl hover:bg-blue-600 hover:text-white transition-colors duration-300">
     Sobre Nós
       </button>
